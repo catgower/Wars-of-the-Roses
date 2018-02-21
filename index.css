@@ -18,6 +18,9 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
+.navbar a:hover {
+  color: white;
+}
 
 /* The dropdown container */
 .dropdown {
@@ -39,7 +42,7 @@ body{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #B22222;
 }
 
 /* Dropdown content (hidden by default) */
@@ -65,6 +68,7 @@ body{
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
+  color:#B22222;
 }
 
 /* Show the dropdown menu on hover */
